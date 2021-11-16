@@ -25,6 +25,7 @@ export default function Grid({ gridState, setGridState }) {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem0}
+          onClick={() => setGridState('close')}
         ></styled.GridItemBg>
       </styled.GridItem>
       <styled.GridItem>
@@ -35,6 +36,7 @@ export default function Grid({ gridState, setGridState }) {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem1}
+          onClick={() => setGridState('close')}
         ></styled.GridItemBg>
       </styled.GridItem>
       <styled.GridItem>
@@ -45,12 +47,14 @@ export default function Grid({ gridState, setGridState }) {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem2}
+          onClick={() => setGridState('close')}
         ></styled.GridItemBg>
         <div className="grid__item-content btn">
           <styled.GridItemInner
             animate={controls}
             initial="hidden"
             variants={gridVariants.gridText}
+            onClick={() => setGridState('close')}
           >
             <button
               onClick={() => setGridState('close')}
@@ -69,6 +73,7 @@ export default function Grid({ gridState, setGridState }) {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem3}
+          onClick={() => setGridState('close')}
         ></styled.GridItemBg>
       </styled.GridItem>
       <styled.GridItem>
@@ -79,6 +84,7 @@ export default function Grid({ gridState, setGridState }) {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem4}
+          onClick={() => setGridState('close')}
         ></styled.GridItemBg>
         <Link href="/" passHref>
           <a className="grid__link grid__item-content home">
@@ -86,6 +92,7 @@ export default function Grid({ gridState, setGridState }) {
               animate={controls}
               initial="hidden"
               variants={gridVariants.gridText}
+              onClick={() => setGridState('close')}
             >
               <h3
                 onClick={() => setGridState('close')}
@@ -104,16 +111,18 @@ export default function Grid({ gridState, setGridState }) {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem5}
+          onClick={() => setGridState('close')}
         ></styled.GridItemBg>
-        <Link href="#" passHref>
+        <Link href="/project/hotflix" passHref>
           <a className="grid__link grid__item-content">
             <styled.GridItemInner
               animate={controls}
               initial="hidden"
               variants={gridVariants.gridText}
+              onClick={() => setGridState('close')}
             >
               <h3 className="grid__item-title">project</h3>
-              <span className="grid__item-desc">Under Construction</span>
+              <span className="grid__item-desc">Click Me</span>
             </styled.GridItemInner>
           </a>
         </Link>
@@ -125,13 +134,15 @@ export default function Grid({ gridState, setGridState }) {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem6}
+          onClick={() => setGridState('close')}
         ></styled.GridItemBg>
-        <Link href="#" passHref>
+        <Link href="/project/hotflixtwo" passHref>
           <a className="grid__link grid__item-content">
             <styled.GridItemInner
               animate={controls}
               initial="hidden"
               variants={gridVariants.gridText}
+              onClick={() => setGridState('close')}
             >
               <h3 className="grid__item-title">project</h3>
               <span className="grid__item-desc">Under Construction</span>
@@ -146,16 +157,18 @@ export default function Grid({ gridState, setGridState }) {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem7}
+          onClick={() => setGridState('close')}
         ></styled.GridItemBg>
-        <Link href="#" passHref>
+        <Link href="/project/hotflixtwo" passHref>
           <a className="grid__link grid__item-content">
             <styled.GridItemInner
               animate={controls}
               initial="hidden"
               variants={gridVariants.gridText}
+              onClick={() => setGridState('close')}
             >
-              <h3 className="grid__item-title">project</h3>
-              <span className="grid__item-desc">Under Construction</span>
+              <h3 className="grid__item-title">ZaraEFX Plugin </h3>
+              <span className="grid__item-desc">Coming Soon</span>
             </styled.GridItemInner>
           </a>
         </Link>
@@ -167,16 +180,18 @@ export default function Grid({ gridState, setGridState }) {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem8}
+          onClick={() => setGridState('close')}
         ></styled.GridItemBg>
-        <Link href="#" passHref>
+        <Link href="/project/hotflixtwo" passHref>
           <a className="grid__link grid__item-content">
             <styled.GridItemInner
               animate={controls}
               initial="hidden"
               variants={gridVariants.gridText}
+              onClick={() => setGridState('close')}
             >
-              <h3 className="grid__item-title">project</h3>
-              <span className="grid__item-desc">Under Construction</span>
+              <h3 className="grid__item-title">Riff Radio</h3>
+              <span className="grid__item-desc">Radio App</span>
             </styled.GridItemInner>
           </a>
         </Link>
@@ -188,9 +203,10 @@ export default function Grid({ gridState, setGridState }) {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem9}
+          onClick={() => setGridState('close')}
         >
           <Image
-            src="/images/grid/hotflix.jpg"
+            src="/images/hotflix/blissweb.png"
             alt="hotflix"
             layout="fill"
             objectFit="cover"
@@ -205,9 +221,9 @@ export default function Grid({ gridState, setGridState }) {
               initial="hidden"
               variants={gridVariants.gridText}
             >
-              <h3 className="grid__item-title">Hotflix</h3>
+              <h3 className="grid__item-title">Bliss Venue</h3>
               <span className="grid__item-desc no-after">
-                A project that got 3.6k upvotes on Reddit
+                Find the Perfect venue with Bliss Venue
               </span>
             </styled.GridItemInner>
           </a>

@@ -45,9 +45,9 @@ export default function AboutContent() {
       <div className="heading">
         <h2>About me</h2>
         <p>
-          Hello! My name is Adrian, I'm a&nbsp;
+          Hello! My name is Terry Ohannah, I'm a&nbsp;
           <span className="line">self-taught</span> front-end developer
-          <br></br> living in sunny Brisbane, Australia.
+          <br></br> living in sunny Nairobi, Kenya.
         </p>
         <span
           className="scroll"
@@ -226,13 +226,13 @@ export default function AboutContent() {
             </p>
             <div className="buttons">
               <styled.Button>
-                <a href="mailto:adrian.li.dev@gmail.com">
+                <a href="mailto:terryohanna@gmail.com">
                   <styled.EmailIcon />
                   Email
                 </a>
               </styled.Button>
               <styled.Button>
-                <a href="https://drive.google.com/file/d/1Neh66oJyiG87217mAF55pRB-Lr48LvYK/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1zksNVonLLPWLF6yCqBPaXG6fmy1qyL0M/view?usp=sharing">
                   <styled.ResumeIcon />
                   Resume
                 </a>
@@ -242,7 +242,7 @@ export default function AboutContent() {
         </div>
       </div>
       <div className="copyright">
-        Designed & Built with love ❤️ by <br /> Adrian Li © 2021
+        Designed & Built with love ❤️ by <br /> Terry Ohannah © 2021
       </div>
     </styled.About>
   );

@@ -53,20 +53,16 @@ export default function ChatBot({ setChatBotState, chatBotState }) {
         <Delayed>
           <div className="agent" ref={contentRef}>
             <p>
-              1. I used to be a digital media editor✍️ on Tencent platform for 4
-              years. And there was one article that I wrote got more than 15
-              million views in less than 15 hours.
+              1. I was once a music producer
+❤️🎹.I had a song chart to number 1 in my region and stayed there for more than 5 weeks .
             </p>
             <br />
             <p>
-              2. I want to become a competitive powerlifer💪 in my 30's, and a
-              jacked old man in my 80's 😈.
+              2. I want to become a techie with swag 
+✨!! .My inspiration is Elon Musk
             </p>
             <br />
-            <p>
-              3. I really really love my wife. She is the most gorgeous woman in
-              the world 👩!
-            </p>
+           
           </div>
           <div className="agent">Can I help you with anything else?</div>
         </Delayed>
@@ -76,8 +72,8 @@ export default function ChatBot({ setChatBotState, chatBotState }) {
             <p>📧 Here is my email:</p>
             <br />
             <p>
-              <a href="mailto:adrian.li.dev@gmail.com">
-                adrian.li.dev@gmail.com
+              <a href="mailto:terryohanna@gmail.com">
+                terryohanna@gmail.com
               </a>
             </p>
             <br />
@@ -184,7 +180,7 @@ export default function ChatBot({ setChatBotState, chatBotState }) {
             className="avatar"
           />
           <div className="desc">
-            <span className="name">Adrian Bot</span>
+            <span className="name">Terry Bot</span>
             <span className="question">Ask me a question!</span>
           </div>
 
@@ -196,10 +192,10 @@ export default function ChatBot({ setChatBotState, chatBotState }) {
         </styled.ChatHeader>
 
         <styled.ChatContent>
-          <div className="agent">Hello! My name is Adrian Bot 🤖</div>
+          <div className="agent">Hello! My name is Terry Bot 🤖</div>
 
           <div className="agent">
-            I know as much as Adrian. Maybe even a little bit more! 😉
+            I know as much as Terry. Maybe even a little bit more! 😉
           </div>
 
           <div className="agent">How can I help you today?</div>

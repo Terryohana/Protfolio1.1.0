@@ -13,16 +13,11 @@ export default function ProjectAll() {
             <div>
               <p className="project-overline">Featured Project</p>
               <h3 className="project-title">
-                <Link href="/project/hotflix">Hotflix</Link>
+                <Link href="/project/hotflix">Bliss Venue</Link>
               </h3>
               <div className="project-description">
                 <p>
-                  This is a project I made that got 3.6k upvotes on Reddit. It
-                  reproduces the experience of browsing real Netflix. You can
-                  log in to your own account and set your unique profile, then
-                  watch various kinds of TV shows or movies. You can also search
-                  for TV shows, read about their cast information, and much
-                  more!
+                Bliss venue is a wedding and events planning website that helps wedding planners manage their business, keep track of time worked and generate reports for either the venues or the wedding planner. The website is built with Google  Apps Engine which handles all security aspects any data.
                 </p>
               </div>
               <ul className="project-tech-list">
@@ -32,7 +27,7 @@ export default function ProjectAll() {
               </ul>
               <div className="project-links">
                 <a
-                  href="https://github.com/Halmesn/Hotflix"
+                  href="http://blissvenue.x10.bz/wp/"
                   aria-label="GitHub Link"
                   target="_blank"
                 >
@@ -52,7 +47,7 @@ export default function ProjectAll() {
                   </svg>
                 </a>
                 <a
-                  href="https://hotflix-clone.vercel.app/"
+                  href="http://blissvenue.x10.bz/wp/"
                   aria-label="External Link"
                   className="external"
                   rel="noopener noreferrer"
@@ -81,8 +76,8 @@ export default function ProjectAll() {
           <styled.ProjectImage>
             <div>
               <Image
-                src="/images/hotflix/hotflix-bg.jpg"
-                alt="hotflix background"
+                src="/images/hotflix/blissweb.png"
+                alt="blissvenue background"
                 layout="fill"
                 objectFit="cover"
               />

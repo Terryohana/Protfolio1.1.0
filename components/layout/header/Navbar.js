@@ -63,7 +63,7 @@ export default function Navbar({
         {width > 850 && (
           <>
             <styled.LinkWrapper className="github">
-              <styled.NavLink href="https://github.com/Halmesn">
+              <styled.NavLink href="https://github.com/Terryohana">
                 <styled.Icon
                   src={`${
                     theme === 'light'
@@ -77,7 +77,7 @@ export default function Navbar({
             </styled.LinkWrapper>
             <styled.LinkWrapper>
               <styled.NavLink
-                href="https://www.linkedin.com/in/adrian-li-332395208/"
+                href="https://www.linkedin.com/in/terry-ohannah/"
                 rotate="-1deg"
               >
                 <styled.Icon

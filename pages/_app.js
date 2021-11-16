@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Adrian Li | React Front-End Developer</title>
+        <title>Terry Ohannah| React Front-End Developer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="apple-touch-icon"
@@ -31,13 +31,13 @@ function MyApp({ Component, pageProps }) {
         <link rel="manifest" href="/images/favicons/site.webmanifest" />
         <meta
           property="og:title"
-          content="Adrian Li | React Front-End Developer"
+          content="Terry Ohannah | React Front-End Developer"
         />
         <meta
           property="og:image"
           content="https://adrian-li.vercel.app/images/brand/home.png"
         />
-        <meta property="og:description" content="Adrian Li's portfolio." />
+        <meta property="og:description" content="Terry Ohannah's portfolio." />
         <meta property="og:url" content="https://adrian-li.vercel.app/" />
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>

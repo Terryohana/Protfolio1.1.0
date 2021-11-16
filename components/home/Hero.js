@@ -17,7 +17,7 @@ export default function Hero() {
         animate="visible"
       >
         <h1>
-          Hi. I'm Adrian Li. <span>A front-end developer.</span>
+          Hi. I'm Terry Ohannah. <span>A front-end developer.</span>
         </h1>
         <p>
           I love spending hours and hours building things, resolving problems,
@@ -27,7 +27,7 @@ export default function Hero() {
       </styled.Description>
       {width < 850 && (
         <styled.LinkWrapper>
-          <styled.NavLink href="https://github.com/Halmesn">
+          <styled.NavLink href="https://github.com/Terryohana">
             <styled.Icon
               src={`${
                 theme === 'light'
@@ -39,7 +39,7 @@ export default function Hero() {
             <span>GitHub</span>
           </styled.NavLink>
           <styled.NavLink
-            href="https://www.linkedin.com/in/adrian-li-332395208/"
+            href="https://www.linkedin.com/in/terry-ohannah/"
             rotate="-1deg"
           >
             <styled.Icon
