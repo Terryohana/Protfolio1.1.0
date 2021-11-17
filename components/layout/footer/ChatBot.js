@@ -89,13 +89,13 @@ export default function ChatBot({ setChatBotState, chatBotState }) {
             <p>
               Have a look at my
               <a
-                href="https://drive.google.com/file/d/1Neh66oJyiG87217mAF55pRB-Lr48LvYK/view?usp=sharing"
+                href="https://drive.google.com/file/d/1zksNVonLLPWLF6yCqBPaXG6fmy1qyL0M/view?usp=sharing"
                 className="link-btn"
               >
                 resume💾
               </a>
               and let's
-              <a href="mailto:adrian.li.dev@gmail.com" className="link-btn">
+              <a href="mailto:terryohanna@gmail.com" className="link-btn">
                 chat💌
               </a>
               further!
